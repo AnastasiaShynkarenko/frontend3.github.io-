@@ -1,0 +1,53 @@
+body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#container {
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin: 30px auto;
+    flex-flow: row wrap;
+}
+
+#header {
+    background: #94f8b3;
+    flex: 0 0 30%;
+    height: 15%;
+}
+
+
+#navigation {
+    background: #74d7f3;
+    flex: 0 0 70%;
+    height: 15%;
+   
+}
+#header1 {
+    background: #94f8b3;
+    flex: 0 0 30%;
+    height: 70%;
+}
+
+#menu {
+    background: #f7f894;
+    flex: 0 0 70%;
+    height: 70%;
+}
+
+#content {
+    background: #f8e2b0;
+    flex: 0 0 75%;
+    height: 15%;
+}
+
+#footer {
+    background: #f094f8;
+    flex: 0 0 25%;
+    height: 15%;
+}
